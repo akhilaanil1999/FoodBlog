@@ -1,0 +1,14 @@
+<br><br><div class="container text-center">
+    <div class="row">
+     <div class="col" *ngFor="let item of dessertdb">
+       <div class="card" style="width: 15rem;">
+         <img src="{{item.img}}" class="card-img-top" alt=""width="500"height="300">
+          <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+           <a (click)="gotodessertspage(item.name)" class="btn btn-primary">Show Recepie</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<br><br>

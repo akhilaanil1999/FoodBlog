@@ -1,0 +1,15 @@
+<div style="text-align: center;">
+    <div class="container-fluid" >
+       <h2><b>{{vegdetails[0].name}}</b></h2> 
+       <br><br>
+    </div>
+    <div style="align-items: center;">
+        <img src="{{vegdetails[0].img}}" height="400"  height="300">
+    </div><br><br>
+    <div class="des">   
+        <i>{{vegdetails[0].recepie}} </i>
+    </div> <br><br>
+    <iframe width="570" height="330" [src]="vdoUrl + vegdetails[0].link + '?autoplay=1&vq=hd720' | safeUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    </div><br><br><br>
+

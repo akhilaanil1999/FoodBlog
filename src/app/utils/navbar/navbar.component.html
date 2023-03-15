@@ -1,0 +1,149 @@
+<nav
+      class="navbar navbar-expand-lg navbar-white"
+      style="background-color:powderblue"
+    >
+    &nbsp;
+      <a class="navbar-brand" href="#"> &nbsp;<b><h4 id="q"> GREEN KITCHEN STORIES</h4></b></a> &nbsp;
+  
+      
+      
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="home">Home </a> 
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="aboutus">About</a>
+          </li>
+          
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Recepies
+            </a>
+            <ul class="dropdown-menu">
+              <input type="text" placeholder="Search..">
+              <li><a class="dropdown-item" routerLink="veg">Vegetarian Recepies</a></li>
+              <li><a class="dropdown-item" routerLink="non-veg">Non-Veg Recepies</a></li>
+              <li><a class="dropdown-item" routerLink="snacks">Snacks Recepies</a></li>
+              <li><a class="dropdown-item" routerLink="desserts">Desserts</a></li>
+              <li><a class="dropdown-item" routerLink="seafood">Seafood Recepies</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"> 
+            <a class="nav-link" routerLink="ingredients">Shop</a> 
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="feedback">Feedback</a>
+          </li>
+        </ul>
+         &nbsp;
+         
+        <button id="a"
+        class="btn btn-outline-success mx-4"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        Sign up 
+      </button>
+        
+              <!-- Modal -->
+      <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Sign up</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body mx-3">
+              <div class="md-form mb-5">
+                <i class="fa fa-user prefix grey-text"></i>
+                <input
+                  type="text"
+                  id="defaultForm-name"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="defaultForm-name"
+                  >Your Name</label
+                >
+              </div>
+
+              <div class="md-form mb-5">
+                <i class="fa fa-envelope prefix grey-text"></i>
+                <input
+                  type="email"
+                  id="defaultForm-email"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="defaultForm-email"
+                  >Your email</label
+                >
+              </div>
+
+              <div class="md-form mb-4">
+                <i class="fa fa-lock prefix grey-text"></i>
+                <input
+                  type="password"
+                  id="defaultForm-pass"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="defaultForm-pass"
+                  >Your password</label
+                >
+              </div>
+
+              <div class="md-form mb-4">
+                <i class="fa fa-lock prefix grey-text"></i>
+                <input
+                  type="password"
+                  id="defaultForm-cpass"
+                  class="form-control validate"
+                />
+                <label
+                  data-error="wrong"
+                  data-success="right"
+                  for="defaultForm-cpass"
+                  >Confirm password</label
+                >
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-outline-info">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+        
+      </div>
+      <svg class="w-2 h-2 text-black ml-2" role="presentation" aria-hidden="true"><use xlink:href="#sprite-icon-search"></use></svg>
+      </nav>
