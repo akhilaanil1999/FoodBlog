@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "foodblog-d57da": {
+      "hosting": {
+        "FoodBlog": [
+          "foodblog-d57da"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "foodblog-d57da"
+  }
+}
